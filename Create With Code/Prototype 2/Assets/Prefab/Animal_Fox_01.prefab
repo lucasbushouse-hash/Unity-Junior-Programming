@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 8130163100001734759}
   - component: {fileID: 4034739411254332187}
   - component: {fileID: 5238392555381405599}
+  - component: {fileID: 1076484903173142923}
+  - component: {fileID: 268588765535372566}
   m_Layer: 0
   m_Name: Animal_Fox_01
   m_TagString: Untagged
@@ -80,6 +82,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveFoward
   speed: 5
+--- !u!114 &1076484903173142923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843633026439343668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb86c8d68f33640ac8d6590984eb74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
+--- !u!114 &268588765535372566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843633026439343668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 540830fd4105dc641bc6434a970e0c45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnManger
+  animalPrefabs: []
+  spawnAction:
+    m_Name: Spawn
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: b9c945e0-63f9-48ff-b225-e03fcba5ac06
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  animalsIndex: 0
 --- !u!1 &1455215236101157615
 GameObject:
   m_ObjectHideFlags: 0

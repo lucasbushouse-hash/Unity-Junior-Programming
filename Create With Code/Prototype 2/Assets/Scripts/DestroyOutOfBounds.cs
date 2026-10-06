@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class DestroyOutOfBounds : MonoBehaviour
 {
-    private const float TopBound = 30f;
-    private const float LowerBound = -10f;
+    private float TopBound = 30f;
+    private float LowerBound = -10f;
 
     void Update()
     {
