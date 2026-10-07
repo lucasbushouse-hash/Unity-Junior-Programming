@@ -6,12 +6,15 @@ public class SpawnManger : MonoBehaviour
     public InputAction spawnAction;
     private float spawnRangex = 20f;
     private float spawnRangeZ = 20f;
+
+    private float startDelay = 2;
+    private float spawnInterval = 1.5f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
 
     
     {
-        InvokeRepeating("SpawnRandomAnimal", 2, 1.5f);
+        InvokeRepeating("SpawnRandomAnimal", startDelay, spawnInterval);
         
         spawnAction.Enable();
         
