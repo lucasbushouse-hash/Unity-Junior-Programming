@@ -16,9 +16,17 @@ public class SpawnManger : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.S)) 
-        { 
-             int animalsIndex = Random.Range(0, animalPrefabs.Length);
-            Instantiate(animalPrefabs[animalsIndex], new Vector3(Random.Range(-20f, 20f), 0, 20f), animalPrefabs[animalsIndex].transform.rotation);
+        {
+            SpawnRandomAnimal();
         }
     }
+
+        void SpawnRandomAnimal(){
+             int animalsIndex = Random.Range(0, animalPrefabs.Length);
+            Vector3 spawnpos = new Vector3(Random.Range(-spawnRangeX, spawnRangeX), 0, spawnPosZ);
+            Instantiate(animalPrefabs[animalsIndex], spawnPos, animalPrefabs[animalsIndex].transform.rotation);
+        }
+    }
+
+    
 }
