@@ -23,13 +23,13 @@ public class PlayerCntroler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {//Keep the player in bounds
-        if (transform.position.x < -xRange) 
+        if (transform.position.x < -15) 
         {
-            transform.position = new Vector3(-xRange, transform.position.y, transform.position.z);
+            transform.position = new Vector3(-15, transform.position.y, transform.position.z);
         }
-        if (transform.position.x > xRange)
+        if (transform.position.x > 15)
         {
-            transform.position = new Vector3( xRange, transform.position.y, transform.position.z);
+            transform.position = new Vector3( 15, transform.position.y, transform.position.z);
 
         }
         moveInput = moveAction.ReadValue<Vector2>();

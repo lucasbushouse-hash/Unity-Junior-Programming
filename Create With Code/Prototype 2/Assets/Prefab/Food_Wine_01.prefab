@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 714082959400611855}
   - component: {fileID: 6500248251038687092}
   - component: {fileID: 8390101374821127060}
+  - component: {fileID: -6904495853204581268}
   m_Layer: 0
   m_Name: Food_Wine_01
   m_TagString: Untagged
@@ -138,8 +139,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.24241088, y: 0.9589979, z: 0.24241088}
-  m_Center: {x: 0, y: -0.000000059604645, z: 0}
+  m_Size: {x: 0.41882688, y: 0.9589979, z: 0.37225378}
+  m_Center: {x: 0.0051879585, y: -0.000000059604645, z: 0.006280124}
 --- !u!54 &8390101374821127060
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -167,3 +168,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-6904495853204581268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7928435318828726142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed3a5c5160ff9be498daadb5dcc70ffa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectCollisoins
