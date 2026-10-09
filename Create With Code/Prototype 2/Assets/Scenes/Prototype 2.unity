@@ -178,7 +178,7 @@ Transform:
   m_GameObject: {fileID: 12845236}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.64, y: -0, z: 32}
+  m_LocalPosition: {x: -0.64, y: -0, z: 42.43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1062,6 +1062,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Animal_Moose_01
       objectReference: {fileID: 0}
+    - target: {fileID: 5631851391848673542, guid: a1c7b6aa04614af46b3dd37f112014fc, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1080,15 +1084,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 347198990162091656, guid: 895fc71d552443145aa462c2fec564be, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.76
+      value: 6.18
       objectReference: {fileID: 0}
     - target: {fileID: 347198990162091656, guid: 895fc71d552443145aa462c2fec564be, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.63
+      value: 3.43
       objectReference: {fileID: 0}
     - target: {fileID: 347198990162091656, guid: 895fc71d552443145aa462c2fec564be, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.98
+      value: 7.14
       objectReference: {fileID: 0}
     - target: {fileID: 347198990162091656, guid: 895fc71d552443145aa462c2fec564be, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1135,6 +1139,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1861523962358073116, guid: 9b78206aa1ddb314dba59843f34e20ac, type: 3}
+      propertyPath: speed
+      value: 7.48
+      objectReference: {fileID: 0}
     - target: {fileID: 2995000232160264264, guid: 9b78206aa1ddb314dba59843f34e20ac, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.47
