@@ -5,7 +5,7 @@ public class PlayerControllerX : MonoBehaviour
 {
     public GameObject dogPrefab;
     public InputAction fireAction;
-    
+
     // Start is called before the first frame update
     void Start()
     {
