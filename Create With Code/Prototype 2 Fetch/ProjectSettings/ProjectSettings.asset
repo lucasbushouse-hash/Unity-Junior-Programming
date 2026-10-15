@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 562e6de9a91963c408fd0f6edddd1cbe
+  productGUID: ebaf6fe74052128438f633205116e16f
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: My Prototype Fetch 2
+  productName: Prototype 2 Fetch
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -844,14 +844,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: My Prototype Fetch 2
+  metroPackageName: Prototype 2 Fetch
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: My Prototype Fetch 2
+  metroApplicationDescription: Prototype 2 Fetch
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -923,10 +923,10 @@ PlayerSettings:
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
   enableDirectStorage: 0
-  cloudProjectId: f7f48b59-264d-4a66-b09f-2cfd62d2de2b
+  cloudProjectId: 35164350-c393-46ec-a108-60bb7ab180e0
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: My Prototype Fetch 2
+  projectName: Prototype 2 Fetch 2026-10-15_07-47-00
   organizationId: lucasbushouse
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

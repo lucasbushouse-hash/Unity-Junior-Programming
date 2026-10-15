@@ -67,6 +67,6 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "My Prototype Fetch 2.slnx",
+    "dotnet.defaultSolution": "Prototype 2 Fetch.slnx",
     "dotnet.enableWorkspaceBasedDevelopment": false
 }
