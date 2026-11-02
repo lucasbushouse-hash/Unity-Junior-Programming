@@ -490,6 +490,9 @@ MonoBehaviour:
       m_Action: Jump
       m_Flags: 0
     m_Flags: 0
+  jumpForce: 11
+  gravityModifier: 2
+  isOnGround: 1
 --- !u!1 &100974
 GameObject:
   m_ObjectHideFlags: 0

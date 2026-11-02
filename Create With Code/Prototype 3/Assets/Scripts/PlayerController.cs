@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     public InputAction jumpAction;
     public float jumpForce = 10.0f;
     public float gravityModifier;
+    public bool isOnGround = true;
 
     private void Start()
     {
@@ -17,11 +18,14 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (jumpAction.triggered && Mathf.Approximately(playerRb.linearVelocity.y, 0f))
+        if (jumpAction.triggered && isOnGround)
         {
             playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            isOnGround = false;
         }
     }
-
-   
+    private void OnCollisionEnter(Collision collision)
+    {
+        isOnGround = true;
+    }
 }
